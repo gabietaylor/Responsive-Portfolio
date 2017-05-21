@@ -68,7 +68,7 @@ h3 {
   width: 250px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 90px;
   color: #fff;
@@ -239,7 +239,7 @@ input[type=submit] {
 
 /* Media screens*/
 
-/*980 needs to be centered but everything else s done*/
+/*980 complete*/
  @media screen and (max-width: 980px) {  
 
 #masthead {
@@ -247,10 +247,18 @@ input[type=submit] {
   margin: 0;
 }
 
+#logo {
+  float: left;
+  width: 25%;
+  margin: auto;
+  margin-left: 90px;
+}
+
 nav {
   float: right;
   width: 33.3%;
-  margin: 20px;
+  margin-right: 40px;
+  margin-top: 40px;
   display: table;
 }
 
@@ -306,7 +314,7 @@ nav a {
 
 }
 
- /*768*/  
+ /*768 complete*/  
 
  @media screen and (max-width: 768px) { 
    
@@ -315,10 +323,17 @@ nav a {
   margin: 0;
 }
 
+#logo {
+  float: left;
+  width: 256px;
+  margin: auto;
+  margin-left: 20px;
+}
+
 nav {
   float: right;
-  width: 33.33%;
-  margin: 20px;
+  width: 256px;
+  margin-top: 40px;
   display: table;
 }
 
@@ -368,11 +383,6 @@ nav a {
   margin: 0 0 40px;
 }
 
-.auth-image {
-  width: 100%;
-  max-width: 100%;
-  margin: 0 0 20px;
-}
 .main-section {
   float: left;
   width: 100%;
@@ -401,12 +411,16 @@ nav a {
 #logo {
   float: left;
   width: 100%;
+  margin-left: 0;
 }
 
 nav {
   float: right;
   margin-top: 25px;
-  width: 100%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 600px;
   display: table;
 }
 
@@ -435,7 +449,6 @@ nav a {
   float: left;
   width: 100%;
   max-width: 600px;
-  margin-left: 20px;
 }
 
 .auth-image {
@@ -454,7 +467,6 @@ nav a {
   width: 100%;
   margin: 0 0 40px;
 }
-
 
 .work img {
   width: 100%;
