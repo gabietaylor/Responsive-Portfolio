@@ -2,7 +2,7 @@
 
 Media Queries used to make Portfolio responsive!
 
-# 980 Index
+# 640 Index
 [![Alt text](assets/images/readMeImgs/640-index.jpg)](#)
 # 640 Portfolio
 [![Alt text](assets/images/readMeImgs/640-portfolio.jpg)](#)
